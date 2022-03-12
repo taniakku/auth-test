@@ -44,15 +44,9 @@ public class DataGenerator {
         }
 
         public static RegistrationDto getRegisteredUser(String status) {
-            var registeredUser = getUser("active");
+            var registeredUser = getUser(status);
             sendRequest(registeredUser);
             return registeredUser;
-        }
-
-        public static RegistrationDto getNotRegisteredUser(String status) {
-            var notRegisteredUser = getUser("blocked");
-            sendRequest(notRegisteredUser);
-            return notRegisteredUser;
         }
 
         private static void sendRequest(RegistrationDto user) {
