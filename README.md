@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/ll27kxf821pwutr3?svg=true)](https://ci.appveyor.com/project/taniakku/auth-test)
